@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b ;
+    printf("enter the value a :  ");
+    scanf("%d" , &a);
+    printf("enter the value b :  ");
+    scanf("%d" , &b);
+    printf("Swap of variables is a=%d ,b =%d" ,a ,b);
+    a=a^b;
+    b=a^b;
+    a= a^b;
+    printf("\n After swapping of variables b=%d ,a=%d", b,a);
+    return 0;
+}
